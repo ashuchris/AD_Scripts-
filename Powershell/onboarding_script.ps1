@@ -4,7 +4,7 @@ foreach ($user in $users) {
     # 1. Gather the data from the CSV row
     $fullname = "$($user.FirstName) $($user.LastName)"
     $username = $user.Username
-    $ouPath   = "OU=$($user.OU),DC=yourdomain,DC=local"
+    $ouPath   = "OU=$($user.OU),DC=afrotechzone,DC=local"
     $targetGroup = $user.Group  # <--- New variable for the group name
 
     # 2. Create the User
