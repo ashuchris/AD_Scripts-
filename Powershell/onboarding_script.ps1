@@ -5,7 +5,7 @@ foreach ($user in $users) {
     $fullname = "$($user.FirstName) $($user.LastName)"
     $username = $user.Username
     $ouPath   = "OU=$($user.OU),DC=afrotechzone,DC=local"
-    $targetGroup = $user.Group  # <--- New variable for the group name
+    $targetGroup = $user.Group  
 
     # 2. Create the User
     New-ADUser `
