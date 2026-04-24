@@ -1,4 +1,3 @@
-PowerShell
 # --- Active Directory Bulk User Onboarding Script ---
 # This script reads user data from a CSV file and creates corresponding accounts in AD.
 
